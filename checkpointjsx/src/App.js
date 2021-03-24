@@ -2,7 +2,7 @@ import imageInSrc from "./imageInSrc.jpg"
 import './App.css';
 // import "node_modules/video-react/dist/video-react.css";
 
-//  import WebDevelopment from "./WebDevelopment.mp4"
+  import WebDevelopment from "./videos/WebDevelopment .mp4"
 // import React from 'react';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <br></br> 
           <img src="/imageInPublic.jpg" alt="imageInPublic" />
           <br></br>
-          <video src={"/WebDevelopment.mp4"} width="1000" height="500" controls="controls" autoplay="true" /> 
+          <video src={WebDevelopment} width="1000" height="500" controls="controls" autoplay="true" /> 
          
           
 
